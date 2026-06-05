@@ -1,0 +1,27 @@
+# Ambiente : Kaggle (GPU T4 x2, Python 3.10+)
+
+# Core Deep Learning 
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Arquitecturas pré-treinadas (EfficientNet-B5/B6/B7) 
+timm>=0.9.0
+
+# Interpretabilidade (Grad-CAM) 
+grad-cam>=1.4.8          # no código `pytorch_grad_cam`
+
+# Dados e Métricas 
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+
+# Processamento de Imagem 
+Pillow>=9.5.0
+opencv-python-headless>=4.8.0   # cv2 - CLAHE e conversão de espaço de cor
+
+# Visualização 
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Utilitários (geralmente pré-instalados no Kaggle) 
+tqdm>=4.65.0
